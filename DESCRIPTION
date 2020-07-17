@@ -1,0 +1,20 @@
+Package: image.binarization
+Type: Package
+Title: Binarize Images for Enhancing Optical Character Recognition
+Version: 0.1.0
+Maintainer: Jan Wijffels <jwijffels@bnosac.be>
+Authors@R: c(
+    person('Jan', 'Wijffels', role = c('aut', 'cre', 'cph'), email = 'jwijffels@bnosac.be', comment = "R wrapper"), 
+    person('Vrije Universiteit Brussel - DIGI: Brussels Platform for Digital Humanities', role = 'cph', comment = "R wrapper"),
+    person('Brandon M. Petty', role = c('ctb', 'cph'), comment = "Files in src/Doxa"))
+Description: Improve optical character recognition by binarizing images. The package focuses primarily on local adaptive thresholding algorithms. 
+    In English, this means that it has the ability to turn a color or gray scale image into a black and white image. This is particularly useful
+    as a preprocessing step for optical character recognition or handwritten text recognition.
+License: MPL-2.0
+URL: https://github.com/DIGI-VUB/image.binarization
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp, magick, grDevices
+LinkingTo: Rcpp
+RoxygenNote: 7.1.0
+SystemRequirements: C++17
