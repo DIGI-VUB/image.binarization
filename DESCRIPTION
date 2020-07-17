@@ -2,9 +2,9 @@ Package: image.binarization
 Type: Package
 Title: Binarize Images for Enhancing Optical Character Recognition
 Version: 0.1.0
-Maintainer: Jan Wijffels <jwijffels@bnosac.be>
+Maintainer: Jan Wijffels <jan.wijffels@vub.be>
 Authors@R: c(
-    person('Jan', 'Wijffels', role = c('aut', 'cre', 'cph'), email = 'jwijffels@bnosac.be', comment = "R wrapper"), 
+    person('Jan', 'Wijffels', role = c('aut', 'cre', 'cph'), email = 'jan.wijffels@vub.be', comment = "R wrapper"), 
     person('Vrije Universiteit Brussel - DIGI: Brussels Platform for Digital Humanities', role = 'cph', comment = "R wrapper"),
     person('Brandon M. Petty', role = c('ctb', 'cph'), comment = "Files in src/Doxa"))
 Description: Improve optical character recognition by binarizing images. The package focuses primarily on local adaptive thresholding algorithms. 
