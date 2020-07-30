@@ -7,6 +7,7 @@ This repository contains an R package for Binarizing Images focusing on local ad
 
 ### Installation
 
+- For regular users, install the package from your local CRAN mirror `install.packages("image.binarization")`
 - For installing the development version of this package: `remotes::install_github("DIGI-VUB/image.binarization")`
 - Note that the package requires a compiler with C++17 capabilities
 
