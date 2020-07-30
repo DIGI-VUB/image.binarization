@@ -33,7 +33,14 @@ namespace Doxa
 			}
 			else
 			{
-				return std::get<Type>(pos->second);
+				//return std::get<Type>(pos->second);
+				if(auto v = std::get_if<Type>(&pos->second)){
+				  //Rcpp::Rcout << name << ": " << *v << "\n"; 
+				  return *v;
+				}else{
+				  std::string expected_type(typeid(Type).name());
+				  Rcpp::stop("Failed to appropriately get the parameter value. Make sure that you pass the parameter using the appropriate data type: either as an integer or as a numeric (e.g. 3L is integer, 3 or 3.1 are numerics). Expecting type " + expected_type);
+				}
 			}
 		}
 

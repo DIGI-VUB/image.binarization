@@ -50,6 +50,7 @@ Options which can be bassed on to the binarization routines, with the defaults b
 \item isauvola: window(75L), k(0.2)
 }
 Note that it is important that you provide the window / threshold / contrast-limit, minN, glyph argument as integers (e.g. as in 75L)
+and the other parameters as numerics.
 }
 \examples{
 library(magick)
