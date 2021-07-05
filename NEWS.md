@@ -1,3 +1,7 @@
+## CHANGES IN image.binarization VERSION 0.1.2
+
+- Remove LazyData from DESCRIPTION as there is no data to be lazy about
+
 ## CHANGES IN image.binarization VERSION 0.1.1
 
 - Fix compilation issue on Mac version 10.13 about the use of get in Parameters.hpp
