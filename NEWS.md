@@ -1,3 +1,7 @@
+## CHANGES IN image.binarization VERSION 0.1.3
+
+- Change of maintainer email address
+
 ## CHANGES IN image.binarization VERSION 0.1.2
 
 - Remove LazyData from DESCRIPTION as there is no data to be lazy about
